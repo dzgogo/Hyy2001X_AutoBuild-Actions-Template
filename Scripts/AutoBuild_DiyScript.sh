@@ -6,12 +6,12 @@ Firmware_Diy_Core() {
 
 	Author=AUTO
 	Author_URL=AUTO
-	Default_IP="192.168.1.1"
+	Default_IP="192.168.2.1"
 	Banner_Message="Powered by AutoBuild-Actions"
 
 	Short_Firmware_Date=true
 	Checkout_Virtual_Images=false
-	Firmware_Format=trx
+	Firmware_Format=AUTO
 	REGEX_Skip_Checkout="packages|buildinfo|sha256sums|manifest|kernel|rootfs|factory"
 
 	INCLUDE_AutoBuild_Features=true
