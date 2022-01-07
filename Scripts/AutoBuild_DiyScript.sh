@@ -9,7 +9,7 @@ Firmware_Diy_Core() {
 	Default_IP="192.168.2.1"
 	Banner_Message="Powered by AutoBuild-Actions"
 
-	Short_Firmware_Date=true
+	Short_Firmware_Date=false
 	Checkout_Virtual_Images=false
 	Firmware_Format=trx
 	REGEX_Skip_Checkout="packages|version|sha256sums|manifest|kernel|rootfs|factory|asus|buffalo|dlink|linksys|luxul|meraki|netgear|smartrg"
