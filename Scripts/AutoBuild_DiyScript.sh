@@ -11,8 +11,8 @@ Firmware_Diy_Core() {
 
 	Short_Firmware_Date=true
 	Checkout_Virtual_Images=false
-	Firmware_Format=AUTO
-	REGEX_Skip_Checkout="packages|buildinfo|sha256sums|manifest|kernel|rootfs|factory"
+	Firmware_Format=trx
+	REGEX_Skip_Checkout="packages|version|sha256sums|manifest|kernel|rootfs|factory|asus|buffalo|dlink|linksys|luxul|meraki|netgear|smartrg"
 
 	INCLUDE_AutoBuild_Features=true
 	INCLUDE_DRM_I915=false
